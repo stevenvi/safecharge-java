@@ -104,6 +104,9 @@ public class ChecksumUtils {
 
         requestChecksumOrder.put(Constants.ChecksumOrderMapping.ENABLE_UPO.name(), Arrays.asList(
                 "merchantId", "merchantSiteId", "userTokenId", "clientRequestId", "userPaymentOptionId", "timeStamp"));
+
+        requestChecksumOrder.put(Constants.ChecksumOrderMapping.EKYC.name(), Arrays.asList(
+                "merchantId", "merchantSiteId", "clientRequestId", "timeStamp"));
     }
 
     /**
